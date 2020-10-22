@@ -1,0 +1,18 @@
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    username: roberto95117@gmail.com
+    password:
+    port: 587
+    properties:
+      mail:
+        ssl:
+          enable: true
+        smtp:
+          auth: enable
+        starttls:
+          enable: true
+          required: true
+    protocol: smtp
+    test-connection: false
